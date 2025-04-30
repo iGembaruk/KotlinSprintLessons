@@ -11,6 +11,6 @@ fun main() {
 
     var countPerson: Int = 2000
 //    println(countPerson)
-    countPerson--
+    countPerson = countPerson - 1
     println(countPerson)
 }
