@@ -1,11 +1,13 @@
 package ru.gembaruk.lesson1
 
-fun main(){
-    val seconds: UShort = 6480U
+const val SECONDS_IN_HOUR = 3600
+const val MINUTES_IN_HOUR = 60
+const val SECONDS: Short = 6480
 
-    val hours = seconds / 3600U
-    val surplusSeconds = seconds % 3600U
-    val minutes = surplusSeconds / 60U
-    val afterSeconds = surplusSeconds % 60U
-    println(String.format("%02d:%02d:%02d", hours.toInt(), minutes.toInt(), afterSeconds.toInt()))
+fun main(){
+    val HOURS = SECONDS / SECONDS_IN_HOUR
+    val SURPALCE_SECONDS = SECONDS % SECONDS_IN_HOUR
+    val MINUTES = SURPALCE_SECONDS / MINUTES_IN_HOUR
+    val AFTER_SECONDS = SURPALCE_SECONDS % MINUTES_IN_HOUR
+    println(String.format("%02d:%02d:%02d", HOURS.toInt(), MINUTES.toInt(), AFTER_SECONDS.toInt()))
 }
