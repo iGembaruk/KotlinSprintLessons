@@ -1,11 +1,12 @@
 package ru.gembaruk.lesson2
 
-const val countCrystals = 7
-const val countIrons = 11
-const val plusBuff = 0.2
+const val COUNT_CRYSTALS = 7
+const val COUNT_IRONS = 11
+const val BONUS = 0.2
+
 fun main() {
-    val bonusCrystals = countCrystals * plusBuff
-    val bonusIrons = countIrons * plusBuff
+    val bonusCrystals = COUNT_CRYSTALS * BONUS
+    val bonusIrons = COUNT_IRONS * BONUS
     println(bonusCrystals.toInt())
     println(bonusIrons.toInt())
 }
