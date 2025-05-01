@@ -1,10 +1,11 @@
 package ru.gembaruk.lesson2
 
+const val GRADE_STUDENT1 = 3
+const val GRADE_STUDENT2 = 4
+const val GRADE_STUDENT3 = 3
+const val GRADE_STUDENT4 = 5
+
 fun main(){
-    val gradeStudent1 = 3
-    val gradeStudent2 = 4
-    val gradeStudent3 = 3
-    val gradeStudent4 = 5
-    val avg1 = (gradeStudent1 + gradeStudent2 + gradeStudent3 + gradeStudent4) / 4.0;
-    println(avg1)
+    val avg = (GRADE_STUDENT1 + GRADE_STUDENT2 + GRADE_STUDENT3 + GRADE_STUDENT4) / 4.0;
+    println(avg)
 }
