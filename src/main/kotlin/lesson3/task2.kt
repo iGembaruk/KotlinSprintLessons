@@ -2,10 +2,12 @@ package ru.gembaruk.lesson3
 
 fun main(){
     var age = 20
-    var lastName = "Андреева Татьяна Сергеевна"
-    println("$lastName, $age")
+    var lastName = "Андреева"
+    var name = "Татьяна"
+    var fatherName = "Сергеевна"
+    println("$lastName $name $fatherName, $age")
 
     age = 22
-    lastName = "Сидорова Татьяна Сергеевна"
-    println("$lastName, $age")
+    lastName = "Сидорова"
+    println("$lastName $name $fatherName, $age")
 }
