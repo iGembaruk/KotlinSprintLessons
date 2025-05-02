@@ -1,13 +1,14 @@
 package ru.gembaruk.lesson2
 
-const val BONUS = 0.2
 
 fun main() {
+    var bonus = 0.2
+
     var countCrystals = 7
-    var bonusCrystals = countCrystals * BONUS
+    var bonusCrystals = countCrystals * bonus
 
     var countIrons = 11
-    var bonusIrons = countIrons * BONUS
+    var bonusIrons = countIrons * bonus
     println(bonusCrystals.toInt())
     println(bonusIrons.toInt())
 }
