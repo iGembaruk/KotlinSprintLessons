@@ -1,4 +1,4 @@
-package ru.gembaruk
+package ru.gembaruk.lesson5
 
 const val LOGIN = "Zaphod"
 const val PASSWORD = "PanGalactic"
